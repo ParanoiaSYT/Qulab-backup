@@ -1,0 +1,85 @@
+Amplitude:
+  1: {unit: V, value: 1}
+  2: {unit: V, value: 1}
+  3: {unit: V, value: 1}
+  4: {unit: V, value: 1}
+Frequency:
+  1: {unit: Hz, value: null}
+  2: {unit: Hz, value: null}
+  3: {unit: Hz, value: null}
+  4: {unit: Hz, value: null}
+Offset:
+  1: {unit: V, value: 0}
+  2: {unit: V, value: 0}
+  3: {unit: V, value: 0}
+  4: {unit: V, value: 0}
+Output:
+  1: {unit: null, value: Close}
+  2: {unit: null, value: Close}
+  3: {unit: null, value: Close}
+  4: {unit: null, value: Close}
+Phase:
+  1: {unit: deg, value: 0}
+  2: {unit: deg, value: 0}
+  3: {unit: deg, value: 0}
+  4: {unit: deg, value: 0}
+SList:
+  1:
+    unit: null
+    value: &id001 []
+  2:
+    unit: null
+    value: *id001
+  3:
+    unit: null
+    value: *id001
+  4:
+    unit: null
+    value: *id001
+WList:
+  0:
+    unit: null
+    value: []
+WaveShape:
+  1: {unit: null, value: HIZ}
+  2: {unit: null, value: HIZ}
+  3: {unit: null, value: HIZ}
+  4: {unit: null, value: HIZ}
+clockFrequency:
+  0: {unit: Hz, value: null}
+clockIO:
+  0: {unit: null, value: 'OFF'}
+clockSyncFrequency:
+  0: {unit: Hz, value: null}
+cycles:
+  1: {unit: null, value: 0}
+  2: {unit: null, value: 0}
+  3: {unit: null, value: 0}
+  4: {unit: null, value: 0}
+prescaler:
+  1: {unit: null, value: 0}
+  2: {unit: null, value: 0}
+  3: {unit: null, value: 0}
+  4: {unit: null, value: 0}
+startDelay:
+  1: {unit: ns, value: 0}
+  2: {unit: ns, value: 0}
+  3: {unit: ns, value: 0}
+  4: {unit: ns, value: 0}
+triExtSource:
+  1: {unit: null, value: EXTERN}
+  2: {unit: null, value: EXTERN}
+  3: {unit: null, value: EXTERN}
+  4: {unit: null, value: EXTERN}
+triggerBehavior:
+  1: {unit: null, value: RISE}
+  2: {unit: null, value: RISE}
+  3: {unit: null, value: RISE}
+  4: {unit: null, value: RISE}
+triggerIO:
+  0: {unit: null, value: SyncIN}
+triggerMode:
+  1: {unit: null, value: ExternalCycle}
+  2: {unit: null, value: ExternalCycle}
+  3: {unit: null, value: ExternalCycle}
+  4: {unit: null, value: ExternalCycle}

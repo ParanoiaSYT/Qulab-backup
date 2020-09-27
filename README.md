@@ -22,6 +22,8 @@ python -m pip install .
 
 创建配置文件 `config.yaml`，若使用 Windows 系统，将其置于`%ProgramData%\QuLab\`路径下。
 
+## (对于Mac系统可以参照README_Mac文件来制作证书！对于Windows系统可以直接将SSL文件夹复制到C盘的`%ProgramData%\ `下并改名为Qulab即可)
+
 ```yaml
 ca_cert: &ca_cert /path/to/CACert/ca.pem
 
